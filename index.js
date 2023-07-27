@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { ApiPromise, WsProvider } from '@polkadot/api';
 import { bnToBn } from '@polkadot/util';
 import { u128 } from '@polkadot/types';
