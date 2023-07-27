@@ -1,20 +1,20 @@
 {
   "name": "edgeware-supply",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "private": true,
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hicommonwealth/edgeware-supply.git"
+    "url": "git+https://github.com/edgeware-network/edgeware-supply.git"
   },
   "keywords": [],
   "dependencies": {
-    "@edgeware/node-types": "latest",
+    "@edgeware/node-types": "^3.6.2-wako",
     "@now/build-utils": "^2.6.0",
-    "@polkadot/api": "latest",
-    "@polkadot/types": "latest",
-    "@polkadot/util": "latest",
+    "@polkadot/api": "^10.9.1",
+    "@polkadot/types": "^10.9.1",
+    "@polkadot/util": "^12.3.2",
     "@vercel/node": "1.8.5",
     "typescript": "^4.1.3"
   }
